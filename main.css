@@ -1,0 +1,219 @@
+body{
+    background-color: orange;
+}
+h1{
+    text-align: center;
+
+}
+ol{
+  margin-inline: auto;
+}
+
+ol li{
+  width: 500px;
+  margin: 5px auto;
+}
+.container{
+  margin: 0px auto;
+}
+
+.div{
+  width: 100px; 
+  display: inline-block;
+  height: 80px;
+  margin: 25px 20px;
+}
+
+.box{
+  background: rgb(44, 37, 87);
+  animation-name: box;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box{
+  0%{transform: skew(-20deg);}
+  50%{transform: skew(20deg);}
+  100%{transform: skew(-20deg);}
+}
+.box1{
+  background: rgb(79, 79, 112);
+  animation: box1 infinite 5s ease;
+}
+
+@keyframes box1{
+  0%{
+      transform: skewy(-20deg);
+  }
+  50%{
+      transform: skewy(20deg);
+  }
+  100%{
+      transform: skewy(-20deg);
+  }
+}
+.box2{
+  background-color: rgb(236, 50, 227);
+  animation-name: box2;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+@keyframes box2{
+  0%{
+      transform: rotate(0deg);
+  }
+  50%{
+      transform: rotate(180deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+.box3{
+  background:rgb(111, 199, 11);
+  animation: box3 infinite 3s ease;
+}
+
+@keyframes box3{
+  0%{
+      transform: scaley(0.5);
+  }
+  50%{
+      transform: scaley(1);
+  }
+  100%{
+      transform: scaley(0.5);
+  }
+}
+.box4{
+  background: rgb(159, 212, 13);
+  animation:box4 infinite 3s linear;
+}
+
+@keyframes box4{
+  0%{
+      transform: scalex(0.5);
+  }
+  50%{
+      transform: scalex(1);
+  }
+  100%{
+      transform: scalex(0.5);
+  }
+}
+.box5{
+  background: rgb(32, 248, 32);
+  animation: box5 infinite 3s ease;
+}
+
+@keyframes box5{
+  0%{
+      transform: rotate(0deg);
+  }
+  50%{
+      transform: rotate(-90deg);
+  }
+  100%{
+      transform: scalex(0deg);
+  }
+}
+
+a{
+ font-size: xx-large;
+ position: absolute;
+ left: 35%;
+}
+.first{
+    width: 70%;
+     margin-left: 400px;
+    display: inline-block;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    
+}
+.box6 {  
+  margin: 5px; 
+    width: 100px;
+    height: 100px;
+    background: rgb(102, 224, 21);
+    transition: linear 2s;
+  }
+  
+  .box6:hover {
+    width: 250px;
+  }
+  .box7{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(102,224,21);
+    transition: width 2s, height 4s;
+  }
+  .box7:hover{
+    width: 300px;
+    height: 300px;
+  }
+  .box8{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(102,224,21);
+    transition:linear 2s;
+  }
+  .box8:hover{
+    width: 300px;
+  }
+  .box9{
+   
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(102,224,21);
+    transition: ease 5s;
+  }
+  .box9:hover{
+    width: 400px;
+  }
+  .box10{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(102,224,21);
+    transition:linear 2s;
+  }
+  .box10:hover{
+    width: 300px;
+  }
+  .box11{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(102,224,21);
+    transition: linear 2s;
+  }
+  .box11:hover{
+    width: 300px;
+
+  }
+  .box12{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(102,224,21);
+    transition: ease-in 2s;
+  }
+  .box12:hover{
+    width:450px;
+  }
+  .har{
+    display: block;
+    position: absolute;
+    left: 48%;
+  }
+  .har1{
+    display: block;
+    position: absolute;
+    left: 48%;
+  }
+
